@@ -12,11 +12,11 @@ conn.on("data", (data) => {
 console.log("Server says: ", data);
 });
 
-conn.on("connect", () => {
+conn.on("connect", () => {``
 console.log('Successfully connected to game server');
 conn.write('Name: BEK');
 });
   return conn;
   
 };
-module.exports =  { connect: connect,};
+module.exports =  {connect};
