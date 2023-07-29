@@ -1,4 +1,4 @@
-const IP = 'localhost';
+const IP =  'localhost';
 const PORT = 50541;
 const MOVE_UP_KEY = 'w';
 const MOVE_LEFT_KEY = 'a';
@@ -9,7 +9,7 @@ const MESSAGES = {
   '2': 'Say: I can\'t be defeated!',
   '3': 'Say: mm mm mm',
   '4': 'Say: ❤️❤️❤️',
-  '5': 'Say: HAHA you failed!'
+  '5': 'Say: YOU GOT IT'
 };
 
 //EXPORT
