@@ -1,9 +1,13 @@
-const IP =  'localhost';
+const IP = 'localhost';
 const PORT = 50541;
-const MOVE_UP_KEY = 'w';
-const MOVE_LEFT_KEY = 'a';
-const MOVE_DOWN_KEY = 's';
-const MOVE_RIGHT_KEY = 'd';
+const INITIALS = "BEK";
+const MOVES = {
+  w: "up",
+  a: "left",
+  s: "down",
+  d: "right",
+};
+
 const MESSAGES = {
   '1': 'Say: go go go',
   '2': 'Say: I can\'t be defeated!',
@@ -12,13 +16,10 @@ const MESSAGES = {
   '5': 'Say: YOU GOT IT'
 };
 
-//EXPORT
 module.exports = {
   IP,
   PORT,
-  MOVE_UP_KEY,
-  MOVE_LEFT_KEY,
-  MOVE_DOWN_KEY,
-  MOVE_RIGHT_KEY,
-  MESSAGES
+  MOVES,
+  MESSAGES,
+  INITIALS
 };
